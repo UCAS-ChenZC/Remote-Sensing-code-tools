@@ -43,7 +43,7 @@ def replace_whole_word(input_path, output_path):
     print(f"All '.txt' files have been processed and saved to {output_path}")
 
 # 使用示例
-input_folder = '/media/solid/T9/回填txt'  # 替换为你的输入文件夹路径
-output_folder = '/media/solid/T9/回填txt1'  # 替换为你的输出文件夹路径
+input_folder = ''  # 替换为你的输入文件夹路径
+output_folder = ''  # 替换为你的输出文件夹路径
 replace_whole_word(input_folder, output_folder)
 #检索文件夹下txt中的标签名，输出标签名只为'Truck'的文件名，而不是标签名含有'Truck'的555555555555552555555555

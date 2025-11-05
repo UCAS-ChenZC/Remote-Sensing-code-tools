@@ -27,8 +27,8 @@ def find_files_with_only_exact_category(directory, exact_category_name):
     return matched_files
 
 # 使用示例
-directory_path = '/home/solid/可视化汇总1/回填第二波/txt'
-exact_category_name = 'Small_Car'
+directory_path = ''
+exact_category_name = ''
 files_with_only_exact_category = find_files_with_only_exact_category(directory_path, exact_category_name)
 
 print("Files containing only the exact category '{}':".format(exact_category_name))

@@ -91,7 +91,7 @@ def convert_XML_to_DOTA(filename):
         f.write('\n'.join(ann_list))
 
 if __name__ ==  '__main__':
-    xml_files = os.listdir('/home/solid/CD/ciomp/SAR/roxml') # xml
-    os.makedirs('/home/solid/CD/ciomp/SAR/txt', exist_ok=True)    # txt
+    xml_files = os.listdir(' ') # xml_path
+    os.makedirs(' ', exist_ok=True)    # txt_path
     for file in xml_files:
-        convert_XML_to_DOTA(os.path.join('/home/solid/CD/ciomp/SAR/roxml', file))    # xml
+        convert_XML_to_DOTA(os.path.join(' ', file))    # xml_ path

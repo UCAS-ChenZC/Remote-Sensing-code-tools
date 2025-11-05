@@ -62,14 +62,14 @@ def output_results_from_images(config_path, checkpoint_path, path_in, path_ou):
     # classes = ('plane', 'baseball-diamond', 'bridge', 'ground-track-field', 'small-vehicle', 'large-vehicle', 'ship',
     #            'tennis-court', 'basketball-court', 'storage-tank', 'soccer-ball-field', 'roundabout', 'harbor',
     #            'swimming-pool', 'helicopter')
-    # 魏希来
+    # XXX V1
     # classes = ('Dump Truck', 'Van', 'Small Car', 'Cargo Truck', 'other-vehicle', 'Bus', 'Trailer', 'Truck Tractor',
     #           'Excavator', 'Tractor')
-    # 张德浩
+    # XXX V2
     # classes = ('Small Car', 'Bus', 'Cargo Truck', 'Dump Truck', 'Van', 'Trailer', 'Tractor', 'Excavator',
     #            'Truck Tractor', 'other-vehicle')
 
-
+    # XXX V3
     classes = ('Dump Truck', 'Van', 'Small Car', 'Cargo Truck', 'other-vehicle', 'Bus', 'Trailer', 'Truck Tractor', 'Excavator', 'Tractor')
 
     today = datetime.now().strftime('%Y-%m-%d')
@@ -138,8 +138,8 @@ def output_results_from_images(config_path, checkpoint_path, path_in, path_ou):
 
 def main():
     args = parse_args()
-    output_results_from_images("/workspace/LSKNet/configs/spacebasenet/lsk_s_fpn_1x_spacebase_le90.py",
-                               "/model_path/epoch_12.pth",
+    output_results_from_images(" ", # replace with your config file .py
+                               " ",  #model_path --> replace with your model path .pth
                                args.input_path,
                                args.output_path)
 

@@ -1,6 +1,8 @@
 import os
 from PIL import Image
 
+# 将.tif图像转换为.png格式
+
 def convert_tif_to_png(input_folder, output_folder):
     # 创建输出文件夹（如果不存在）
     os.makedirs(output_folder, exist_ok=True)
@@ -19,7 +21,7 @@ def convert_tif_to_png(input_folder, output_folder):
                 print(f"Converted: {input_path} -> {output_path}")
 
 # 示例调用
-input_dir = '/media/solid/D8AEA779AEA74F36/CD_2025/datasets_ciomp/XCZ_airport/Lab_16_256/shoudu/A'     # 替换为你的.tif图像所在目录
-output_dir = '/media/solid/D8AEA779AEA74F36/CD_2025/datasets_ciomp/511_plane/shoudu/A' # 替换为你希望保存png图像的目录
+input_dir = ''     # 替换为你的.tif图像所在目录
+output_dir = '' # 替换为你希望保存png图像的目录
 convert_tif_to_png(input_dir, output_dir)
 

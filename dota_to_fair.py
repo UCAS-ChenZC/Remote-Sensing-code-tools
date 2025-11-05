@@ -53,11 +53,11 @@ def txt_to_xml(txt_file_path, image_file_path, xml_file_path):
         f.write(pretty_xml)
 
 # 图像文件夹路径
-image_folder_path = '/media/solid/902EAC1C2EABF8FC/datasets/Space_Based_v9/val/images'
+image_folder_path = ' '
 # txt标签文件夹路径
-txt_folder_path = '/media/solid/902EAC1C2EABF8FC/datasets/Space_Based_v9/val/txt_gt'
+txt_folder_path = ' '
 # XML标注输出文件夹路径
-xml_output_path = '/media/solid/902EAC1C2EABF8FC/datasets/Space_Based_v9/val/test_val'
+xml_output_path = ' '
 
 # 确保输出目录存在
 if not os.path.exists(xml_output_path):
