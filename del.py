@@ -36,8 +36,8 @@ def delete_non_matching_files(folder1, folder2):
 
 
 if __name__ == "__main__":
-    folder1 = '/home/solid/CD/code/BCD/Duibishiyan/C_img/Edge_LEVIR/new'
-    folder2 = '/home/solid/CD/code/BCD/Duibishiyan/C_img/Edge_LEVIR/C_511Ours'
+    folder1 = ' '
+    folder2 = ' '
 
     if os.path.isdir(folder1) and os.path.isdir(folder2):
         delete_non_matching_files(folder1, folder2)

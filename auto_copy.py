@@ -2,6 +2,8 @@ import os
 import shutil
 from concurrent.futures import ThreadPoolExecutor
 
+#自动复制图片脚本
+
 def copy_image(input_path, output_folder):
     # 确保输出文件夹存在
     if not os.path.exists(output_folder):
@@ -24,6 +26,6 @@ def copy_images(input_folder, output_folder):
     print("All images have been copied to the output folder.")
 
 # 使用示例
-input_folder = '/media/solid/902EAC1C2EABF8FC/datasets/小样本增强1000pix/m_1000png'  # 替换为你的输入文件夹路径
-output_folder = '/media/solid/LiuYD/m_1000png'  # 替换为你的输出文件夹路径
+input_folder = ''  # 替换为你的输入文件夹路径
+output_folder = ''  # 替换为你的输出文件夹路径
 copy_images(input_folder, output_folder)

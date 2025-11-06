@@ -45,6 +45,6 @@ def remove_low_probability_objects(input_path, output_path):
     return True
 
 # 使用示例
-input_directory = '/home/solid/TZ/PETDet-dev/work_dirs/fair1m_test3'
-output_directory = '/home/solid/TZ/PETDet-dev/work_dirs/111'
+input_directory = ''
+output_directory = ''
 remove_low_probability_objects(input_directory, output_directory)
